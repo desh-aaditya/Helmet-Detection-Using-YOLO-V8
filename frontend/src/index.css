@@ -1,0 +1,24 @@
+:root {
+  --primary: #8b5cf6;
+  --primary-dark: #7c3aed;
+  --secondary: #3b82f6;
+  --background: #f8f9fc;
+  --card: #ffffff;
+  --text: #1f2937;
+  --text-light: #6b7280;
+  --border: #e5e7eb;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --shadow: 0 10px 40px -10px rgba(139, 92, 246, 0.2);
+  --shadow-hover: 0 20px 50px -15px rgba(139, 92, 246, 0.3);
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #f8f9fc 0%, #f1f3f9 100%);
+  color: var(--text);
+}
+
+* {
+  box-sizing: border-box;
+}
